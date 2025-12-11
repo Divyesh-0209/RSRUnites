@@ -17,3 +17,15 @@ To facilitate communication and engagement through a common community space.
 To implement secure authentication and role-based access.
 
 To provide an easy-to-use interface for both users and administrators.
+
+Data Dictionary
+
+The database consists of four main tables:
+
+Admin: Stores admin credentials and verification tokens.
+
+User: Contains user registration details, email verification status, and approval info. Here user means the students.
+
+Posts: Maintains all post data including image path, caption, and approval status.
+
+News: Stores news updates added by admin to display on homepage.
